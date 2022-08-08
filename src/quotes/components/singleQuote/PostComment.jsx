@@ -46,7 +46,9 @@ const PostComment = (props) => {
 
 			// console.log(responseData);
 
-			navigate(`/forum/quotes/${quoteId}`, { replace: true });
+			navigate(`/gaialivsstil-reactApp/forum/quotes/${quoteId}`, {
+				replace: true,
+			});
 		} catch (err) {}
 	};
 

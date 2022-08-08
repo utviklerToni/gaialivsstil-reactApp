@@ -198,7 +198,7 @@ const Auth = () => {
 								{signIn ? (
 									<div>
 										<Link
-											to='/account/resetPassword'
+											to='/gaialivsstil-reactApp/account/resetPassword'
 											className='reset-password-link'
 										>
 											Glemt passordet?

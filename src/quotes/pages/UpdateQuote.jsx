@@ -95,7 +95,7 @@ const UpdateQuote = () => {
 			);
 		} catch (err) {}
 
-		navigate(`/forum/quotes/${quoteId}`, {
+		navigate(`/gaialivsstil-reactApp/forum/quotes/${quoteId}`, {
 			replace: true,
 		});
 	};
@@ -111,7 +111,7 @@ const UpdateQuote = () => {
 	if (!loadedQuote && !errorState) {
 		return (
 			<Fragment>
-				<Button green to={`/forum/quotes`}>
+				<Button green to={`/gaialivsstil-reactApp/forum/quotes`}>
 					gå tilbake
 				</Button>
 
@@ -131,7 +131,7 @@ const UpdateQuote = () => {
 				<div className='section-feedback-bg m-top m2-txt'>
 					<div style={{ minHeight: '12vh' }}></div>
 					<form className='quote-form' onSubmit={updateQuoteSubmitHandler}>
-						<Button green to={`/forum/quotes`}>
+						<Button green to={`/gaialivsstil-reactApp/forum/quotes`}>
 							gå tilbake
 						</Button>
 						<Input

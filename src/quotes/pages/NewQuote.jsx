@@ -86,7 +86,7 @@ const NewQuotes = () => {
 			// );
 			// console.log(auth);
 
-			navigate(`/forum/quotes`, { replace: true });
+			navigate(`/gaialivsstil-reactApp/forum/quotes`, { replace: true });
 		} catch (err) {}
 	};
 
@@ -98,7 +98,7 @@ const NewQuotes = () => {
 				<div className='new-q-pad m-top'>
 					<form className='quote-form' onSubmit={submitQuoteHandler}>
 						<div className='m2-txt'>
-							<Button green to='/admin'>
+							<Button green to='/gaialivsstil-reactApp/admin'>
 								gå tilbake
 							</Button>
 

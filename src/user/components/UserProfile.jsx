@@ -40,7 +40,10 @@ const UserProfile = (props) => {
 							<p>Ble med på: {parseDate}</p>
 						</div>
 						<div>
-							<Button dark to='/user/account/editProfile'>
+							<Button
+								dark
+								to='/gaialivsstil-reactApp/user/account/editProfile'
+							>
 								Rediger profil <IconPencil />
 							</Button>
 						</div>

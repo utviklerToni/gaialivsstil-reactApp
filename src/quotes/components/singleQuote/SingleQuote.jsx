@@ -18,7 +18,7 @@ const SingleQuote = (props) => {
 			<div className='gaialivsstil-bg section-feedback-bg'>
 				<div className='btn-space'>
 					<div>
-						<Button dark to={`/forum/quotes`}>
+						<Button dark to={`/gaialivsstil-reactApp/forum/quotes`}>
 							Gå tilbake
 						</Button>
 					</div>

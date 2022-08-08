@@ -92,7 +92,7 @@ const EditProfile = (props) => {
 			);
 		} catch (err) {}
 
-		navigate(`/user/account/myProfile`, {
+		navigate(`/gaialivsstil-reactApp/user/account/myProfile`, {
 			replace: true,
 		});
 	};
@@ -164,7 +164,10 @@ const EditProfile = (props) => {
 									initialValid={true}
 								/>
 
-								<Button dark to='/user/account/myProfile'>
+								<Button
+									dark
+									to='/gaialivsstil-reactApp/user/account/myProfile'
+								>
 									gå tilbake
 								</Button>
 								<Button

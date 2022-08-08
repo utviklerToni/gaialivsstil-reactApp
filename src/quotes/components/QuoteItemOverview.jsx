@@ -57,7 +57,10 @@ const QuoteItemOverview = (props) => {
 		adminFunctionality = (
 			<div className='quote-item__actions'>
 				<Fragment>
-					<Button dark to={`/forum/admin/editQuote/${props.id}`}>
+					<Button
+						dark
+						to={`/gaialivsstil-reactApp/forum/admin/editQuote/${props.id}`}
+					>
 						Redigere
 					</Button>
 					<Button danger onClick={showWarningHandler}>
@@ -110,7 +113,11 @@ const QuoteItemOverview = (props) => {
 							<div className='ellipsis-text'>
 								<p>{props.description}</p>
 							</div>
-							<Button dark inverse to={`/forum/quotes/${props.id}`}>
+							<Button
+								dark
+								inverse
+								to={`/gaialivsstil-reactApp/forum/quotes/${props.id}`}
+							>
 								LES MER
 							</Button>
 							<div
