@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/gaialivsstil-reactApp/static/css/main.47f2ace9.css",
+    "main.js": "/gaialivsstil-reactApp/static/js/main.e5797a2c.js",
+    "static/media/om-oss.webp": "/gaialivsstil-reactApp/static/media/om-oss.4366ff05399fe535696e.webp",
+    "static/media/pexels-stein-egil-liland-1933239.jpg": "/gaialivsstil-reactApp/static/media/pexels-stein-egil-liland-1933239.5360d362a81633f33d57.jpg",
+    "static/media/stein.webp": "/gaialivsstil-reactApp/static/media/stein.ae4afc08732ece5a7ad2.webp",
+    "static/media/service-3.webp": "/gaialivsstil-reactApp/static/media/service-3.73504e6383d3b67624e4.webp",
+    "static/media/pexels-pixabay-266194.jpg": "/gaialivsstil-reactApp/static/media/pexels-pixabay-266194.b716249fabaa7b6e0f1f.jpg",
+    "static/media/Rubik-Regular.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Regular.974ab100afa4538622da.ttf",
+    "static/media/Rubik-Medium.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Medium.9eca2a21c16a15364ea0.ttf",
+    "static/media/Rubik-SemiBold.ttf": "/gaialivsstil-reactApp/static/media/Rubik-SemiBold.4e99ecca3660ff081d90.ttf",
+    "static/media/Rubik-Bold.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Bold.12b9f128a901a8977a57.ttf",
+    "static/media/Rubik-ExtraBold.ttf": "/gaialivsstil-reactApp/static/media/Rubik-ExtraBold.f8a8999c078e4c19d1c2.ttf",
+    "static/media/Rubik-Black.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Black.00c10de9c6f3fdcb47de.ttf",
+    "static/media/Rubik-Light.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Light.4f69a31f58eb5e296d8d.ttf",
+    "static/media/Rubik-SemiBoldItalic.ttf": "/gaialivsstil-reactApp/static/media/Rubik-SemiBoldItalic.c6e463925ef832bd07ef.ttf",
+    "static/media/Rubik-ExtraBoldItalic.ttf": "/gaialivsstil-reactApp/static/media/Rubik-ExtraBoldItalic.264fa85eb27950d594ed.ttf",
+    "static/media/Rubik-MediumItalic.ttf": "/gaialivsstil-reactApp/static/media/Rubik-MediumItalic.2183c23a828c5e30bbe8.ttf",
+    "static/media/Rubik-BoldItalic.ttf": "/gaialivsstil-reactApp/static/media/Rubik-BoldItalic.bf6b4c30eff89b752e88.ttf",
+    "static/media/Rubik-Italic.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Italic.0f10100d4b78c1db911a.ttf",
+    "static/media/Rubik-BlackItalic.ttf": "/gaialivsstil-reactApp/static/media/Rubik-BlackItalic.1fee7ff750b516ec613f.ttf",
+    "static/media/Rubik-LightItalic.ttf": "/gaialivsstil-reactApp/static/media/Rubik-LightItalic.cf931c3b60628e1e0989.ttf",
+    "static/media/service-1.webp": "/gaialivsstil-reactApp/static/media/service-1.37f92a306ba63b30a1e4.webp",
+    "static/media/stick-smoking.deda454f.webp": "/gaialivsstil-reactApp/static/media/stick-smoking.deda454f.58b250808acd3c473f7c.webp",
+    "static/media/balance.d077c22c.webp": "/gaialivsstil-reactApp/static/media/balance.d077c22c.9d350397ac1eed5b3c86.webp",
+    "static/media/service-2.webp": "/gaialivsstil-reactApp/static/media/service-2.4e1847614025c8d9f259.webp",
+    "static/media/navLogoMedium.png": "/gaialivsstil-reactApp/static/media/navLogoMedium.09de285107313f50a3b7.png",
+    "static/media/man-sitting-in-front-of-turned-on-screen.81300bba.webp": "/gaialivsstil-reactApp/static/media/man-sitting-in-front-of-turned-on-screen.81300bba.a08866a59bdb60cbca20.webp",
+    "static/media/foggy-lake-china.7734aa79.webp": "/gaialivsstil-reactApp/static/media/foggy-lake-china.7734aa79.04e9d0b596951a70e294.webp",
+    "static/media/candle.e901d3d3.webp": "/gaialivsstil-reactApp/static/media/candle.e901d3d3.12f0bc75136343e34aa6.webp",
+    "static/media/flower-of-life.43296c5e.webp": "/gaialivsstil-reactApp/static/media/flower-of-life.43296c5e.93b5bc5d8af9b5e810e0.webp",
+    "static/media/buddha-meditating.e8edacd1.webp": "/gaialivsstil-reactApp/static/media/buddha-meditating.e8edacd1.11521de5bb70aaadf58a.webp",
+    "index.html": "/gaialivsstil-reactApp/index.html",
+    "main.47f2ace9.css.map": "/gaialivsstil-reactApp/static/css/main.47f2ace9.css.map",
+    "main.e5797a2c.js.map": "/gaialivsstil-reactApp/static/js/main.e5797a2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47f2ace9.css",
+    "static/js/main.e5797a2c.js"
+  ]
+}
