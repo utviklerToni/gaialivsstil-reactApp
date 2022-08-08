@@ -15,7 +15,7 @@ const NavLinks = (props) => {
 			<div className='nav-items nav-box'>
 				<div className='nav-left'>
 					<NavLink
-						to='/'
+						to='/gaialivsstil-reactApp'
 						className={({ isActive }) =>
 							isActive
 								? 'nav-links footer-link active_link'

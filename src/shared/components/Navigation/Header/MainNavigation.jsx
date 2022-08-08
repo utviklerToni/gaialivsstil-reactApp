@@ -5,6 +5,7 @@ import navLogo from '../../../../assets/png/navLogoMedium.png';
 import NavLinks from './NavLinks';
 import SideDrawer from '../SideDrawer/SideDrawer';
 import Backdrop from '../../UIElements/Backdrop';
+import { Link } from 'react-router-dom';
 
 const MainNavigation = () => {
 	const [openSideDrawer, setOpenSideDrawer] = useState(false);
@@ -37,12 +38,14 @@ const MainNavigation = () => {
 					<div className='logo-links'>
 						<div className='flex-left-links'>
 							<div className='logo-title-box'>
-								<img
-									src={navLogo}
-									alt=''
-									style={{ maxWidth: '120px' }}
-								/>
-								<h3 className='logo-text'>Gaialivsstil</h3>
+								<Link to='/gaialivsstil-reactApp'>
+									<img
+										src={navLogo}
+										alt=''
+										style={{ maxWidth: '120px' }}
+									/>
+									<h3 className='logo-text'>Gaialivsstil</h3>
+								</Link>
 							</div>
 							<nav className='main-nav-links' style={{ flexGrow: '1' }}>
 								<NavLinks />

@@ -34,7 +34,7 @@ const App = () => {
 	if (token) {
 		routes = (
 			<Fragment>
-				<Route path='/' element={<Home />} />
+				<Route path='/gaialivsstil-reactApp' element={<Home />} />
 				<Route path='/services' element={<Services />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/isLoggingIn' element={<Navigate to='/' />} />
@@ -59,7 +59,7 @@ const App = () => {
 	} else {
 		routes = (
 			<Fragment>
-				<Route path='/' element={<Home />} />
+				<Route path='/gaialivsstil-reactApp' element={<Home />} />
 				<Route path='/services' element={<Services />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/isLoggingIn' element={<Auth />} />

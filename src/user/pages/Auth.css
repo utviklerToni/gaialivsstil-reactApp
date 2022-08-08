@@ -1,86 +1,93 @@
 .left-right-pad3 {
-   padding: 0rem 3rem;
+	padding: 0rem 3rem;
 }
 
 .padT24_padB3 {
-   padding: 24rem 3rem;
+	padding: 24rem 3rem;
 }
 
 .tb-space {
-   margin: 3.6rem 0rem;
+	margin: 3.6rem 0rem;
 }
 
 .auth-bg {
-   background: radial-gradient(
-      circle at 0% 0,
-      #2a493c,
-      rgb(149 181 192 / 89%),
-      rgb(8 23 29 / 98%)
-   );
+	background: radial-gradient(
+		circle at 0% 0,
+		#2a493c,
+		rgb(149 181 192 / 89%),
+		rgb(8 23 29 / 98%)
+	);
 }
 
 .auth-form {
-   max-width: 477px;
-   margin: auto;
-   border-radius: 5px;
-   padding: 3rem 1rem;
-   /* margin: 72px 12px; */
-   background-image: radial-gradient(
-      circle at 0% 0,
-      #1b2e34,
-      rgba(45, 66, 73, 0.89),
-      rgba(76, 100, 110, 0.72)
-   );
-   box-shadow: 0 0 1rem 0.3rem rgb(0 0 0 / 36%);
+	max-width: 477px;
+	margin: auto;
+	border-radius: 5px;
+	padding: 3rem 1rem;
+	/* margin: 72px 12px; */
+	background-image: radial-gradient(
+		circle at 0% 0,
+		#1b2e34,
+		rgba(45, 66, 73, 0.89),
+		rgba(76, 100, 110, 0.72)
+	);
+	box-shadow: 0 0 1rem 0.3rem rgb(0 0 0 / 36%);
 }
 
 .auth-btn {
-   background-color: #75c475;
+	background-color: #75c475;
 }
 
 .marked {
-   background: #020d20;
-   display: inline-block;
-   padding: 3px 9px;
-   border-radius: 5px;
+	background: #020d20;
+	display: inline-block;
+	padding: 3px 9px;
+	border-radius: 5px;
 }
 
 .reset-password-link {
-   text-decoration: underline;
-   color: #71b4ff;
+	text-decoration: underline;
+	color: #71b4ff;
 }
 
 .card-forgot {
-   display: flex;
-   flex-direction: column;
-   padding: 3rem;
-   width: 720px;
-   margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 3rem;
+	width: 720px;
+	margin: auto;
 }
 
 .card-forgot > p {
-   margin: 1.8rem 0;
-   font-size: 1.8rem;
-   font-weight: 400;
+	margin: 1.8rem 0;
+	font-size: 1.8rem;
+	font-weight: 400;
 }
 
 .reset-flex {
-   display: flex;
-   align-items: center;
+	display: flex;
+	align-items: center;
 }
 
 @media (max-width: 51em) {
-   .card-forgot {
-      max-width: 87vw;
-   }
+	.card-forgot {
+		max-width: 87vw;
+	}
 }
 
-@media (max-width: 500px) {
-   .left-right-pad3 {
-      padding: 0rem 0rem;
-   }
+@media only screen and (max-width: 500px) {
+	.left-right-pad3 {
+		padding: 0rem 0rem;
+	}
 
-   .padT24_padB3 {
-      padding: 18rem 1rem;
-   }
+	.padT24_padB3 {
+		padding: 18rem 1rem;
+	}
+
+	.auth-form {
+		width: 100%;
+		max-width: 87vw;
+		padding: 3rem 2rem;
+		line-height: 1.5;
+	}
 }
