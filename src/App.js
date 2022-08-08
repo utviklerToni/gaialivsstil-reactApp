@@ -62,12 +62,15 @@ const App = () => {
 					element={<EditProfile />}
 				/>
 				<Route
-					path='/forum/quotes/:quoteId/createComment'
+					path='gaialivsstil-reactApp/forum/quotes/:quoteId/createComment'
 					element={<PostComment />}
 				/>
 				{/* author routes */}
 				<Route path='/gaialivsstil-reactApp/admin' element={<Admin />} />
-				<Route path='/admin/addquote' element={<NewQuote />} />
+				<Route
+					path='/gaialivsstil-reactApp/admin/addquote'
+					element={<NewQuote />}
+				/>
 				<Route
 					path='/gaialivsstil-reactApp/forum/admin/editQuote/:quoteId'
 					element={<UpdateQuote />}
@@ -91,7 +94,10 @@ const App = () => {
 					path='/gaialivsstil-reactApp/account/resetPassword'
 					element={<ForgotPassword />}
 				/>
-				<Route path='/*' element={<Navigate to='/isLoggingIn' />} />
+				<Route
+					path='/*'
+					element={<Navigate to='/gaialivsstil-reactApp/isLoggingIn' />}
+				/>
 			</Fragment>
 		);
 	}
@@ -116,7 +122,10 @@ const App = () => {
 							<Route element={<Footer />} />
 
 							{/* redirect if entered invalid url */}
-							<Route path='/*' element={<Navigate to='/' />} />
+							<Route
+								path='/*'
+								element={<Navigate to='/gaialivsstil-reactApp' />}
+							/>
 							<Route element={<Footer />} />
 						</Routes>
 					</div>

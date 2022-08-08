@@ -49,7 +49,7 @@ const SingleQuote = (props) => {
 								)}
 
 								<Link
-									to={`/forum/quotes/${currentQuoteId}/createComment`}
+									to={`/gaialivsstil-reactApp/forum/quotes/${currentQuoteId}/createComment`}
 								>
 									<span className='simple-anchor'>
 										Klikk her for å skrive en kommentar.
