@@ -17,10 +17,11 @@ import {
 import './Auth.css';
 import LoadingIndicator from '../../shared/components/UIElements/LoadingIndicator/LoadingIndicator';
 import { useHttpClient } from '../../shared/hooks/http-hook';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Auth = () => {
 	const auth = useContext(AuthContext);
+	let navigate = useNavigate();
 	const [signIn, setSignIn] = useState(true);
 	const { isLoading, errorState, sendRequest, clearError } = useHttpClient();
 	const [formState, inputHandler, setFormData] = useForm(
@@ -60,6 +61,10 @@ const Auth = () => {
 					responseData.data.user.role,
 					responseData.token
 				);
+
+				navigate(`/forum/quotes`, {
+					replace: true,
+				});
 			} catch (err) {}
 		} else {
 			try {
@@ -76,7 +81,7 @@ const Auth = () => {
 						'Content-Type': 'application/json',
 					}
 				);
-				console.log(responseData);
+				// console.log(responseData);
 				auth.login(
 					responseData.data.user._id,
 					responseData.data.user.role,
