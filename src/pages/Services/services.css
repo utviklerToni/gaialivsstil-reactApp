@@ -1,0 +1,321 @@
+.service-bg {
+   background: url('../../assets/jpg/pexels-pixabay-266194.jpg') no-repeat
+      center;
+   background-size: cover;
+   /* min-height: 100vh; */
+   height: 100%;
+}
+
+.service-bg-overlay {
+   min-height: 100vh;
+   background-color: rgba(103, 132, 141, 0.342);
+   background: radial-gradient(
+      circle at 0% 0,
+      #2a493c,
+      rgba(149, 181, 192, 0.281),
+      rgb(8 23 29 / 98%)
+   );
+   padding: 18rem 3rem;
+}
+
+.service-pad-top {
+   padding: 6rem 3rem;
+}
+
+.service-quote {
+   text-shadow: 0 -1px 2px black;
+   font-size: 7rem;
+   margin: 3rem 0rem;
+   font-weight: 400;
+   line-height: 1.5;
+   letter-spacing: 0.3rem;
+   word-spacing: 0.3rem;
+}
+
+.service-quote .green {
+   color: #6bc479;
+}
+
+.service-quote .blue {
+   color: #4176b1;
+}
+
+.sh-flex {
+   max-width: 81vw;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+   padding: 9rem 0rem;
+}
+
+.sh-flex__txt {
+   font-size: 4.5rem;
+}
+
+.learn-btn {
+   margin: 1rem;
+   padding: 0.6rem 0.3rem;
+}
+
+.learn-how {
+   color: white;
+   cursor: pointer;
+   text-shadow: 0 -1px rgba(0, 0, 0, 0.45);
+   transition: all 0.3s;
+}
+
+.learn-how:hover,
+.learn-how__arrow {
+   color: #4176b1;
+}
+
+.learn-btn:hover {
+   border-bottom: 2px solid #6bc479;
+   transform: scale(1.05);
+   transition: all 0.3s ease-in-out;
+   box-shadow: 2px 1px 3px #6bc47856;
+}
+
+#target-content {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   pointer-events: none;
+   transition: opacity 200ms;
+}
+
+#target-content:target {
+   pointer-events: all;
+   opacity: 1;
+}
+
+#target-inner {
+   position: absolute;
+   display: block;
+   padding: 12px;
+   line-height: 1.2;
+   width: 70%;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.2);
+   background: white;
+   color: #34495e;
+}
+
+a.close {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-color: #34495e;
+   opacity: 0.5;
+   transition: opacity 200ms;
+}
+
+#close:hover {
+   opacity: 0.4;
+}
+
+#button-a {
+   /* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%); */
+   padding: 16px 24px;
+   border-radius: 1px;
+   text-decoration: none;
+   font-size: 24px;
+   display: block;
+   color: white;
+   background-color: #34495e;
+   text-align: center;
+   font-weight: 100;
+   transition: box-shadow 200ms;
+   border-radius: 4px;
+}
+
+.service-image-1 {
+   background: url('../../assets/webp/service-1.webp') no-repeat;
+   background-position: center;
+   background-size: cover;
+   min-height: 720px;
+}
+
+.service-image-2 {
+   background: url('../../assets/webp/service-2.webp') no-repeat;
+   background-position: center;
+   background-size: cover;
+   min-height: 720px;
+}
+
+.service-image-3 {
+   background: url('../../assets/webp/service-3.webp') no-repeat;
+   background-position: center;
+   background-size: cover;
+   min-height: 720px;
+}
+
+.service-bg-overlay-2 {
+   min-height: 720px;
+   background-color: rgba(0, 0, 0, 0.71);
+}
+
+.service-title {
+   max-width: 60vw;
+   margin-left: auto;
+   padding-top: 18rem;
+   padding-left: 1.8rem;
+   padding-right: 5rem;
+   padding-bottom: 15rem;
+}
+
+.service-title-2 {
+   max-width: 60vw;
+   margin-right: auto;
+   padding: 15rem 5rem;
+   transition: all 0.3s;
+}
+
+.hr-header {
+   margin-top: 9rem;
+   margin-bottom: 3rem;
+   max-width: 21vw;
+   color: #4176b1;
+   border-style: solid;
+   border-width: 2px;
+}
+
+.service-title h1 {
+   font-size: 5rem;
+}
+
+.service-title-2 h1 {
+   font-size: 5rem;
+}
+
+.service-para p {
+   font-size: 3rem;
+   line-height: 1.2;
+   font-weight: 300;
+}
+
+.title-span {
+   font-size: 7rem;
+   color: #6bc479;
+}
+
+.flex-img {
+   display: flex;
+}
+
+.img-gap {
+   margin: 18rem 0rem;
+}
+
+@media only screen and (max-width: 94em) {
+   .service-quote {
+      font-size: 6rem;
+   }
+}
+
+@media only screen and (max-width: 1200px) {
+   .service-quote {
+      font-size: 5.4rem;
+   }
+
+   .service-pad-top {
+      padding: 6rem 1.8rem;
+   }
+
+   .service-bg-overlay {
+      padding: 15rem 3rem;
+   }
+}
+
+@media only screen and (max-width: 900px) {
+   .service-quote,
+   .sh-flex__txt {
+      font-size: 4.5rem;
+   }
+}
+
+@media only screen and (max-width: 59em) {
+   .service-bg-overlay {
+      padding: 3rem 3rem;
+   }
+
+   .service-title,
+   .service-title-2 {
+      max-width: 90vw;
+      margin: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+   }
+
+   .service-quote {
+      font-size: 3.6rem;
+   }
+
+   .sh-flex {
+      padding: 9rem 1.2rem;
+   }
+
+   .service-para p {
+      font-size: 3rem;
+   }
+
+   .service-title h1,
+   .service-title-2 h1,
+   .sh-flex__txt {
+      font-size: 3rem;
+   }
+
+   .service-title-2 {
+      max-width: 90vw;
+   }
+
+   .title-span {
+      font-size: 3.6rem;
+   }
+
+   .el-txt {
+      font-size: 3.6rem;
+   }
+
+   .hr-header {
+      max-width: 54vw;
+   }
+
+   /* .service-para {
+      padding: 0rem 0.9rem;
+   } */
+
+   .service-para p {
+      font-size: 2.1rem;
+      line-height: 1.5;
+   }
+}
+
+.question {
+   font-weight: 500;
+}
+
+@media only screen and (max-width: 180px) {
+   .service-quote {
+      font-size: 2.1rem;
+   }
+
+   .service-title h1,
+   .service-title-2 h1,
+   .title-span,
+   .service-para p {
+      font-size: 1.5rem;
+   }
+}

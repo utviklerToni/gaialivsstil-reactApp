@@ -1,0 +1,130 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style-type: none;
+}
+
+html {
+	font-size: 56.25%;
+	color: white;
+	background: radial-gradient(circle at 0% 0, #94eea7bb, #00112249);
+}
+
+.gaialivsstil-bg {
+	background: radial-gradient(circle at 0% 0, #94eea8d1, #001122);
+}
+
+.min-h {
+	min-height: 100vh;
+}
+
+.page-h {
+	max-height: 100vh;
+}
+
+.blue-heart {
+	color: #3689e6;
+}
+
+.red-heart {
+	color: red;
+}
+
+.dark-header {
+	color: #1e313a;
+}
+
+.d-none {
+	display: none;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.jc-end {
+	justify-content: end;
+}
+
+.m-top {
+	margin-top: 12rem;
+}
+
+.m-btm {
+	padding-bottom: 15rem;
+}
+
+.p-top {
+	padding-top: 12rem;
+}
+
+.el-p-top {
+	padding-top: 24rem;
+}
+
+.sm-lineH {
+	line-height: 1.2;
+}
+
+.m-lineH {
+	line-height: 1.5;
+}
+
+.l-lineH {
+	line-height: 1.8;
+}
+
+.s-txt {
+	font-size: 1.2rem;
+}
+
+.s2-txt {
+	font-size: 1.8rem;
+}
+
+.m2-txt {
+	font-size: 2rem;
+}
+
+.m-txt {
+	font-size: 2.28rem;
+}
+
+.l-txt {
+	font-size: 4rem;
+}
+
+.l2-txt {
+	font-size: 3rem;
+}
+
+.el-txt {
+	font-size: 4.5rem;
+}
+
+.xxl-txt {
+	font-size: 9rem;
+}
+
+/* text shadow */
+.sm-txt-shadow {
+	text-shadow: 0 -1px 3px black;
+}
+
+/* text spacing */
+.sm-space {
+	padding: 0.6rem 0.3rem;
+}
+
+.sm-space-btm {
+	padding-bottom: 1.8rem;
+}
+
+.l-space-top {
+	padding-top: 9rem;
+}
+
+.l-space-btm {
+	padding-bottom: 18rem;
+}

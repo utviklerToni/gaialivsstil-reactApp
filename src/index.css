@@ -1,0 +1,202 @@
+@font-face {
+   font-family: 'Rubik-Black';
+   src: local('Rubik-Black'), url('./assets/fonts/Rubik/static/Rubik-Black.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-BlackItalic';
+   src: local('Rubik-BlackItalic'),
+      url('./assets/fonts/Rubik/static/Rubik-BlackItalic.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-Bold';
+   src: local('Rubik-Bold'), url('./assets/fonts/Rubik/static/Rubik-Bold.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-BoldItalic';
+   src: local('Rubik-BoldItalic'),
+      url('./assets/fonts/Rubik/static/Rubik-BoldItalic.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-ExtraBold';
+   src: local('Rubik-ExtraBold'),
+      url('./assets/fonts/Rubik/static/Rubik-ExtraBold.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-ExtraBoldItalic';
+   src: local('Rubik-ExtraBoldItalic'),
+      url('./assets/fonts/Rubik/static/Rubik-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-Italic';
+   src: local('Rubik-Italic'),
+      url('./assets/fonts/Rubik/static/Rubik-Italic.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-Light';
+   src: local('Rubik-Light'), url('./assets/fonts/Rubik/static/Rubik-Light.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-LightItalic';
+   src: local('Rubik-LightItalic'),
+      url('./assets/fonts/Rubik/static/Rubik-LightItalic.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-Medium';
+   src: local('Rubik-Medium'),
+      url('./assets/fonts/Rubik/static/Rubik-Medium.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-MediumItalic';
+   src: local('Rubik-MediumItalic'),
+      url('./assets/fonts/Rubik/static/Rubik-MediumItalic.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-Regular';
+   src: local('Rubik-Regular'),
+      url('./assets/fonts/Rubik/static/Rubik-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-SemiBold';
+   src: local('Rubik-SemiBold'),
+      url('./assets/fonts/Rubik/static/Rubik-SemiBold.ttf');
+}
+
+@font-face {
+   font-family: 'Rubik-SemiBoldItalic';
+   src: local('Rubik-SemiBoldItalic'),
+      url('./assets/fonts/Rubik/static/Rubik-SemiBoldItalic.ttf');
+}
+
+body {
+   margin: 0;
+   font-family: 'Rubik';
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+a {
+   text-decoration: none;
+   color: white;
+}
+
+/* border: 1px solid #0000002f; */
+/* #274b2c65; */
+/* box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 20%),
+      inset 0 -1px 0 hsl(0deg 0% 100% / 10%),
+      inset 1px 0 0 hsl(0deg 0% 100% / 5%),
+      inset -1px 0 0 hsl(0deg 0% 100% / 5%), 0 4px 8px rgb(0 0 0 / 30%); 
+      
+*/
+
+.my-180 {
+   margin-top: 180px;
+}
+
+.card-shadow {
+   box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 20%),
+      inset 0 -1px 0 hsl(0deg 0% 100% / 10%),
+      inset 1px 0 0 hsl(0deg 0% 100% / 5%),
+      inset -1px 0 0 hsl(0deg 0% 100% / 5%), 0 0 2px 1px rgb(0 0 0 / 30%);
+}
+
+.cap-txt {
+   text-transform: uppercase;
+}
+
+.centered {
+   /* margin: 3rem auto; */
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.focused {
+   font-size: 3rem;
+   font-weight: bold;
+   color: white;
+}
+
+.btn {
+   text-decoration: none;
+   background-color: teal;
+   color: white;
+   border-radius: 4px;
+   padding: 0.75rem 1.5rem;
+   border: 1px solid teal;
+   cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+   background-color: #11acac;
+   border-color: #11acac;
+}
+
+.btn--flat {
+   cursor: pointer;
+   font: inherit;
+   color: teal;
+   border: none;
+   background-color: none;
+   text-decoration: none;
+   padding: 0.75rem 1.5rem;
+   border-radius: 4px;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+   background-color: teal;
+   color: white;
+}
+
+.center {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+}
+
+/* side drawer animation */
+.slide-in-left-enter {
+   transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+   transform: translateX(0);
+   opacity: 1;
+   transition: all 300ms;
+}
+
+.slide-in-left-exit {
+   transform: translateX(0%);
+   opacity: 1;
+}
+
+.slide-in-left-exit-active {
+   transform: translateX(-100%);
+   opacity: 0;
+   transition: all 300ms;
+}
+
+.color-header-txt {
+   color: rgb(191 255 233);
+   text-shadow: 0px -1px 0px black;
+}

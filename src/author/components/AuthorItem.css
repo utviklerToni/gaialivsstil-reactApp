@@ -1,0 +1,10 @@
+.userItemContent {
+	display: inline-block;
+}
+
+.userListItem {
+	border-radius: 6px;
+	max-width: 45vw;
+	overflow: hidden;
+	margin: 30px auto;
+}

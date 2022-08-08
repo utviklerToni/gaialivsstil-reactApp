@@ -1,0 +1,89 @@
+.feedback {
+   position: relative;
+}
+
+.arrow {
+   position: absolute;
+   display: inline-flex;
+   z-index: 1;
+   cursor: pointer;
+   text-shadow: 0 0 black;
+}
+
+.l-arrow {
+   top: 50%;
+   left: -9%;
+   color: #4176b1;
+}
+
+.r-arrow {
+   top: 50%;
+   right: -9%;
+   color: #6bc479;
+}
+
+.flex-box {
+   display: flex;
+   justify-content: center;
+   gap: 0.9rem;
+}
+
+.flex-box li {
+   cursor: pointer;
+}
+
+.section-feedback-bg {
+   min-height: 100vh;
+   padding-bottom: 9rem;
+}
+
+.feedback-sec {
+   background-color: #5a6470;
+   border-radius: 5px;
+   padding: 2rem;
+   text-transform: uppercase;
+}
+
+.feedback-card-section {
+   display: flex;
+   flex-direction: column;
+   /* gap: 3rem; */
+}
+
+.down-shadow {
+   transition: all 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
+
+/* .down-shadow:hover {
+   transform: scale(1.017);
+} */
+
+.feedback-sec-btn {
+   font-size: 2rem;
+   border-radius: 3px;
+   padding: 0.45rem 1rem;
+   background: linear-gradient(rgba(68, 110, 100, 0.72), rgb(72, 119, 107));
+   border: 1px solid rgba(33, 55, 61, 0.36);
+   transition: all 0.3s;
+}
+
+.city-name {
+   font-weight: normal;
+   font-size: 1.5rem;
+}
+
+.line-h {
+   line-height: 1.5;
+}
+
+@media (max-width: 59em) {
+   .feedback-card-section {
+      flex-direction: column;
+   }
+}
+
+@media only screen and (max-width: 51em) {
+   .arrow {
+      display: none;
+   }
+}

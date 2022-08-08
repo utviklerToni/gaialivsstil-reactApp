@@ -1,0 +1,53 @@
+.welcome-forum-text {
+   text-transform: uppercase;
+   text-shadow: 0 3px 9px black;
+   color: rgba(204, 253, 255, 0.863);
+}
+
+.quote-image {
+   display: flex;
+   gap: 9rem;
+   flex-direction: column;
+   max-width: 100%;
+   margin: auto;
+}
+
+.quote-image img {
+   max-width: 100%;
+}
+
+.quote-description {
+   max-width: 36vw;
+}
+
+.quote-description__card {
+   border-radius: 5px;
+   background-color: #55606b;
+   padding: 18px;
+}
+
+.author-tag {
+   background-color: #6bc479;
+   border-radius: 0px 5px 5px 0;
+   display: inline-block;
+   color: #001122;
+   padding: 3px 18px;
+   margin-bottom: 9px;
+}
+
+.desc-header {
+   text-decoration: underline;
+   margin: 9px 0 18px 0;
+}
+
+@media only screen and (max-width: 75em) {
+   .quote-description {
+      max-width: 100%;
+   }
+}
+
+@media only screen and (max-width: 35em) {
+   .quote-image {
+      gap: 3rem;
+   }
+}

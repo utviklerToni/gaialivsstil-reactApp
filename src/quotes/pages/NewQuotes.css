@@ -1,0 +1,42 @@
+.quote-form {
+   padding: 18px;
+   margin: auto;
+   max-width: 720px;
+   width: 93%;
+   border-radius: 5px;
+   background-image: linear-gradient(
+      rgb(123, 137, 152),
+      rgba(123, 137, 152, 0.72)
+   );
+}
+
+.quote-form label {
+   font-size: 15px;
+}
+
+.quote-form-img-desc {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+/* .quote-form-img-upload {
+   background: #99a6b4;
+   border: #99a6b4;
+   border-radius: 5px;
+   display: flex;
+   height: 21vh;
+   width: 90vw;
+   max-height: 100%;
+   align-items: center;
+} */
+
+.upload-btn-flex {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.new-q-pad {
+   padding-top: 9rem;
+}

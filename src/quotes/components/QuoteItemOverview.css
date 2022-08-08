@@ -1,0 +1,134 @@
+.map-container {
+   height: 18rem;
+   width: 100%;
+}
+
+.quote-card {
+   display: flex;
+   background-image: linear-gradient(#badae9, #bcd3de);
+   border-radius: 5px;
+   box-shadow: 0 0 9px 0px rgba(0, 0, 0, 0.18);
+}
+
+.quote-flex {
+   min-width: 420px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   gap: 1rem;
+}
+
+.quote-card-text-color {
+   color: #001122;
+}
+
+.author-highlight {
+   margin: 1rem 0rem;
+   padding: 0.36rem 1rem;
+   display: inline-block;
+   font-weight: 500;
+   font-size: 15px;
+   background: #6bc379;
+   border-radius: 3px;
+}
+
+.ellipsis-text {
+   font-size: 2.4rem;
+   line-height: 1.5;
+   display: -webkit-box;
+   min-width: 360px;
+   -webkit-line-clamp: 4;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+.quote-item {
+   margin: 1rem 0;
+   max-width: 751px;
+}
+
+.quote-item__content {
+   padding: 0;
+}
+
+.quote-item__info {
+   padding: 1rem;
+}
+
+/* .quote-item__image {
+} */
+
+.quote-item__image img {
+   display: block;
+   border-radius: 5px 0px 0px 5px;
+   max-width: 100%;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   box-shadow: 1px 0px 3px 0px black;
+}
+
+.quote-item__info h2,
+.quote-item__info h3,
+.quote-item__info p {
+   margin: 0 0 1rem 0;
+}
+
+.quote-item__info p > a {
+   margin: 0.3rem 0.9rem;
+}
+
+.quote-item__actions {
+   padding: 1rem;
+   text-align: center;
+   border-top: 1px solid rgb(0, 0, 0);
+}
+
+.quote-item__modal-content {
+   padding: 0;
+}
+
+.quote-item__modal-actions {
+   text-align: right;
+}
+
+.quote-item__actions button,
+.quote-item__actions a {
+   margin: 0.5rem;
+}
+
+.postedOn-bg {
+   padding: 3px 6px;
+   display: inline-block;
+   background: #001122;
+   color: #b6d9e7;
+   border-radius: 5px;
+}
+
+.chat-flex {
+   display: flex;
+   gap: 0.72rem;
+}
+
+@media (max-width: 59em) {
+   .quote-card {
+      flex-direction: column;
+   }
+
+   .quote-flex {
+      min-width: 100%;
+      gap: 6rem;
+   }
+
+   .quote-item__image img {
+      border-radius: 5px 5px 0px 0px;
+   }
+}
+
+@media (max-width: 35em) {
+   .ellipsis-text {
+      min-width: 150px;
+      font-size: 1.8rem;
+   }
+}

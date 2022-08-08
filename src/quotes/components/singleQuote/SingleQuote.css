@@ -1,0 +1,98 @@
+.c-card {
+   display: inline-block;
+   border: 1px solid #798997;
+   padding: 12px 3px;
+   background: #798997;
+   border-radius: 5px;
+   margin: 0 1rem;
+   width: 100%;
+}
+
+.c-user {
+   text-decoration: underline;
+   font-weight: 400;
+}
+
+.c-date {
+   font-weight: normal;
+   font-size: small;
+   color: #2b3846;
+   text-decoration: none;
+}
+
+/* .desc-img-shadow {
+   box-shadow: 0px 0px 9px 4px #343f45bf;
+} */
+
+.f-dir {
+   flex-direction: row;
+   justify-content: baseline;
+}
+
+.btn-space {
+   max-width: 60vw;
+   margin: 12rem auto 0rem auto;
+   padding-top: 9rem;
+}
+
+.temp_flex {
+   display: inline-flex;
+   align-items: flex-end;
+   gap: 1rem;
+}
+
+.comment-padding-username {
+   padding: 0 1rem;
+   font-family: Roboto;
+}
+
+.comment-padding-text {
+   padding: 0.3rem 1rem;
+   font-weight: 300;
+   font-family: Roboto;
+}
+
+.user-img-comment {
+   display: flex;
+   align-items: flex-start;
+
+   margin: 3rem 0;
+}
+
+.user-img-comment img {
+   height: 100%;
+   width: 72px;
+   /* border-radius: 0.45rem; */
+   border-radius: 99%;
+}
+
+.simple-anchor:hover {
+   color: #70b3ff;
+   border-bottom: 3px dotted #70b3ff;
+}
+
+.comment-advice {
+   font-size: 2rem;
+   padding: 1rem 8rem;
+   line-height: 1.5;
+}
+
+.comment-advice > li {
+   list-style-type: disc;
+}
+
+.align-left {
+   text-align: left;
+}
+
+@media only screen and (max-width: 75em) {
+   .f-dir {
+      flex-direction: column;
+   }
+}
+
+@media only screen and (max-width: 75em) {
+   .btn-space {
+      max-width: 87vw;
+   }
+}

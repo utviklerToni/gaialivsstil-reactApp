@@ -1,0 +1,96 @@
+.welcome-txt {
+   text-transform: uppercase;
+   font-size: 8rem;
+   margin: 1.8rem 0rem;
+}
+
+.welcome-para {
+   font-size: 4rem;
+   max-width: 81vw;
+   margin: 1.8rem 0rem;
+}
+
+.section-grid-bg {
+   background-image: linear-gradient(
+      135deg,
+      rgba(87, 115, 109),
+      rgba(87, 115, 109, 0.9),
+      rgba(87, 115, 109, 0.87),
+      rgba(87, 115, 109, 0.81),
+      rgba(87, 115, 109, 0.81),
+      rgba(87, 115, 109, 0.81)
+   );
+}
+
+.section-width {
+   max-width: 78vw;
+   margin: auto;
+}
+
+.home-bg-overlay {
+   background: rgba(0, 0, 0, 0.45);
+}
+
+.home-bg {
+   background-image: url('../../assets/jpg/pexels-stein-egil-liland-1933239.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 100vh;
+   height: 100%;
+}
+
+.flex-dir-col {
+   height: 100vh;
+   flex-direction: column;
+}
+
+.email-us {
+   /* margin: 18rem auto 0rem auto; */
+   margin: 9rem auto;
+   max-width: 900px;
+}
+
+@media only screen and (max-width: 75em) {
+   .welcome-txt {
+      font-size: 7rem;
+   }
+
+   .welcome-para {
+      font-size: 3rem;
+   }
+
+   /* .section-width {
+      max-width: 90vw;
+   } */
+}
+
+@media (max-width: 1080px) {
+   .email-us {
+      max-width: 81vw;
+   }
+}
+
+@media only screen and (max-width: 690px) {
+   .welcome-txt {
+      font-size: 6rem;
+   }
+
+   .welcome-para {
+      font-size: 2.7rem;
+   }
+
+   .section-width {
+      max-width: 90vw;
+   }
+}
+
+@media only screen and (max-width: 450px) {
+   .welcome-txt {
+      font-size: 4rem;
+   }
+
+   .welcome-para {
+      font-size: 2.4rem;
+   }
+}

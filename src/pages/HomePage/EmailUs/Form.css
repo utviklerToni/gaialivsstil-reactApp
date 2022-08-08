@@ -1,0 +1,150 @@
+/* ================================= */
+/* cta section */
+.section-cta {
+   padding: 4.8rem 0 1rem 0;
+}
+
+.cta {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   background-color: #defae5;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.192);
+   border-radius: 6px;
+   overflow: hidden;
+   background-image: linear-gradient(
+      to right bottom,
+      rgb(232 232 232),
+      rgb(27 49 55)
+   );
+}
+
+.cta-box {
+   border: 1px solid rgba(0, 0, 0, 0.81);
+   padding: 1rem;
+   border-radius: 6px;
+   color: white;
+   background: #001122a8;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.27), transparent);
+   box-shadow: 0 1px 0 hsl(0deg 0% 100% / 60%);
+}
+
+.cta .heading-secondary {
+   color: #243025;
+   margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+   line-height: 1.2;
+   font-size: 4.5rem;
+   font-family: 'Rubik-ExtraBold';
+   font-weight: 700;
+   color: #333;
+   letter-spacing: -0.5px;
+   margin-bottom: 9.6rem;
+   text-shadow: 0px -1px 0px rgb(0 0 0 / 63%);
+}
+
+.cta-text-box {
+   color: #243025;
+   padding: 6.3rem;
+   padding-top: 4.8rem;
+}
+
+.cta-text {
+   font-size: 1.8rem;
+   line-height: 1.8;
+   margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+   background-image: url('../../../assets/webp/man-sitting-in-front-of-turned-on-screen.81300bba.webp'),
+      linear-gradient(to right bottom, rgb(38 60 66), rgb(53 73 80));
+   background-size: cover;
+   background-position: 18%;
+}
+
+.cta-form {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 3.2rem;
+   row-gap: 2.3rem;
+}
+
+.cta-form label {
+   display: block;
+   font-size: 1.6rem;
+   font-weight: 500;
+   margin-bottom: 1.2rem;
+}
+.cta-form input,
+.cta-form select {
+   width: 100%;
+   padding: 1.2rem;
+   font-size: 1.8rem;
+   font-family: inherit;
+   border: none;
+   background-color: #ffffff;
+   border-radius: 3px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   color: black;
+}
+
+.cta-form input::placeholder {
+   color: #aaa;
+}
+
+.cta *:focus {
+   outline: 1px solid rgb(65, 133, 55);
+}
+/* .cta-form label {} */
+/* .cta-form label {} */
+
+.btn--form {
+   background-color: #d9f9dd;
+   color: #47614b;
+   align-self: flex-end;
+   padding: 1.2rem;
+   margin: 0;
+   box-shadow: inset 0 1px 0 hsl(0deg 0% 100% / 20%),
+      inset 0 -1px 0 hsl(0deg 0% 100% / 10%),
+      inset 1px 0 0 hsl(0deg 0% 100% / 5%),
+      inset -1px 0 0 hsl(0deg 0% 100% / 5%), 0 0px 1px rgb(0 0 0 / 60%);
+}
+
+.btn--form:hover {
+   background-color: #47614b;
+   color: white;
+}
+
+@media only screen and (max-width: 51em) {
+   .cta {
+      grid-template-columns: 1fr;
+   }
+
+   .cta-form {
+      grid-template-columns: 1fr;
+   }
+
+   .cta-img-box {
+      height: 32rem;
+      grid-row: 1;
+   }
+
+   .btn--form {
+      margin-top: 1.2rem;
+   }
+}
+
+/* @media (max-width: 35em) {
+   .cta {
+      grid-template-columns: 1fr;
+   }
+
+   .cta-form {
+      grid-template-columns: 1fr;
+   }
+
+   .btn--form {
+      margin-top: 1.2rem;
+   }
+} */

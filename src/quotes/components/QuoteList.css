@@ -1,0 +1,23 @@
+.quote-list {
+   list-style: none;
+   margin: 1rem auto;
+   padding: 0;
+   width: 90%;
+   max-width: 63rem;
+}
+
+.quote-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 81px;
+   margin: 18px;
+   /* margin-top: 0rem; */
+}
+
+@media (max-width: 94em) {
+   .quote-grid {
+      margin-top: 3rem;
+      grid-template-columns: 1fr;
+      justify-items: center;
+   }
+}
