@@ -25,7 +25,7 @@ const NavLinks = (props) => {
 						Hjem
 					</NavLink>
 					<NavLink
-						to='/services'
+						to='/gaialivsstil-reactApp/services'
 						className={({ isActive }) =>
 							isActive
 								? 'nav-links footer-link active_link'
@@ -35,7 +35,7 @@ const NavLinks = (props) => {
 						Tjenester
 					</NavLink>
 					<NavLink
-						to='/about'
+						to='/gaialivsstil-reactApp/about'
 						className={({ isActive }) =>
 							isActive
 								? 'nav-links footer-link active_link'
@@ -48,7 +48,7 @@ const NavLinks = (props) => {
 					{auth.isLoggedIn && (
 						<Fragment>
 							<NavLink
-								to='/forum/quotes'
+								to='/gaialivsstil-reactApp/forum/quotes'
 								className={({ isActive }) =>
 									isActive
 										? 'nav-links footer-link active_link'
@@ -63,7 +63,7 @@ const NavLinks = (props) => {
 				<div className='nav-right'>
 					{auth.role === 'author' && (
 						<NavLink
-							to='/admin'
+							to='/gaialivsstil-reactApp/admin'
 							className={({ isActive }) =>
 								isActive
 									? 'nav-links footer-link active_link'
@@ -75,7 +75,7 @@ const NavLinks = (props) => {
 					)}
 					{auth.isLoggedIn && (
 						<NavLink
-							to='/user/account/myProfile'
+							to='/gaialivsstil-reactApp/user/account/myProfile'
 							className={({ isActive }) =>
 								isActive
 									? 'nav-links footer-link active_link'
@@ -88,7 +88,7 @@ const NavLinks = (props) => {
 
 					{!auth.isLoggedIn && (
 						<NavLink
-							to='/isLoggingIn'
+							to='/gaialivsstil-reactApp/isLoggingIn'
 							className={({ isActive }) =>
 								isActive
 									? 'nav-links footer-link active_link'
@@ -101,7 +101,7 @@ const NavLinks = (props) => {
 
 					{auth.isLoggedIn && (
 						<NavLink
-							to='/isLoggingIn'
+							to='/gaialivsstil-reactApp/isLoggingIn'
 							onClick={auth.logout}
 							className={({ isActive }) =>
 								isActive

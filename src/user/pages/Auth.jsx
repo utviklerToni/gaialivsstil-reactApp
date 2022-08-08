@@ -62,7 +62,7 @@ const Auth = () => {
 					responseData.token
 				);
 
-				navigate(`/forum/quotes`, {
+				navigate(`/gaialivsstil-reactApp/forum/quotes`, {
 					replace: true,
 				});
 			} catch (err) {}

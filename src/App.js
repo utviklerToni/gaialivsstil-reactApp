@@ -35,23 +35,41 @@ const App = () => {
 		routes = (
 			<Fragment>
 				<Route path='/gaialivsstil-reactApp' element={<Home />} />
-				<Route path='/services' element={<Services />} />
-				<Route path='/about' element={<About />} />
-				<Route path='/isLoggingIn' element={<Navigate to='/' />} />
-				<Route path='/forum' element={<Authors />} />
-				<Route path='/forum/quotes' element={<AuthorQuotes />} />
-				<Route path='/forum/quotes/:quoteId' element={<QuoteScreen />} />
-				<Route path='/user/account/myProfile' element={<User />} />
-				<Route path='/user/account/editProfile' element={<EditProfile />} />
+				<Route
+					path='/gaialivsstil-reactApp/services'
+					element={<Services />}
+				/>
+				<Route path='/gaialivsstil-reactApp/about' element={<About />} />
+				<Route
+					path='/gaialivsstil-reactApp/isLoggingIn'
+					element={<Navigate to='/' />}
+				/>
+				<Route path='/gaialivsstil-reactApp/forum' element={<Authors />} />
+				<Route
+					path='/gaialivsstil-reactApp/forum/quotes'
+					element={<AuthorQuotes />}
+				/>
+				<Route
+					path='/gaialivsstil-reactApp/forum/quotes/:quoteId'
+					element={<QuoteScreen />}
+				/>
+				<Route
+					path='/gaialivsstil-reactApp/user/account/myProfile'
+					element={<User />}
+				/>
+				<Route
+					path='/gaialivsstil-reactApp/user/account/editProfile'
+					element={<EditProfile />}
+				/>
 				<Route
 					path='/forum/quotes/:quoteId/createComment'
 					element={<PostComment />}
 				/>
 				{/* author routes */}
-				<Route path='/admin' element={<Admin />} />
+				<Route path='/gaialivsstil-reactApp/admin' element={<Admin />} />
 				<Route path='/admin/addquote' element={<NewQuote />} />
 				<Route
-					path='/forum/admin/editQuote/:quoteId'
+					path='/gaialivsstil-reactApp/forum/admin/editQuote/:quoteId'
 					element={<UpdateQuote />}
 				/>
 			</Fragment>
@@ -60,10 +78,19 @@ const App = () => {
 		routes = (
 			<Fragment>
 				<Route path='/gaialivsstil-reactApp' element={<Home />} />
-				<Route path='/services' element={<Services />} />
-				<Route path='/about' element={<About />} />
-				<Route path='/isLoggingIn' element={<Auth />} />
-				<Route path='/account/resetPassword' element={<ForgotPassword />} />
+				<Route
+					path='/gaialivsstil-reactApp/services'
+					element={<Services />}
+				/>
+				<Route path='/gaialivsstil-reactApp/about' element={<About />} />
+				<Route
+					path='/gaialivsstil-reactApp/isLoggingIn'
+					element={<Auth />}
+				/>
+				<Route
+					path='/gaialivsstil-reactApp/account/resetPassword'
+					element={<ForgotPassword />}
+				/>
 				<Route path='/*' element={<Navigate to='/isLoggingIn' />} />
 			</Fragment>
 		);
