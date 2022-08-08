@@ -33,7 +33,7 @@ const PostComment = (props) => {
 
 		try {
 			await sendRequest(
-				`${process.env.REACT_APP_BACKEND_URL}/api/v1/forum/quotes/${quoteId}/comments`,
+				`${process.env.REACT_APP_BACKEND_URL}/v1/forum/quotes/${quoteId}/comments`,
 				'POST',
 				JSON.stringify({
 					comment: formState.inputs.comment.value,
