@@ -49,14 +49,14 @@ const Footer = () => {
 								369 Lorem Ipsum st, 3rd Floor, Lorem Ipsum, Lorem 9369
 							</p>
 							<a href='tel:369-369-6969' className='footer-link'>
-								+47-41185016
+								+00-111-222-33
 							</a>
 							<br />
 							<a
 								href='mailto:hildelunde@gaialivsstil.no'
 								className='footer-link'
 							>
-								hildelunde@gaialivsstil.no
+								test@email.com
 							</a>
 						</address>
 					</div>
