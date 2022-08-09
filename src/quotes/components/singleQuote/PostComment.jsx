@@ -106,7 +106,10 @@ const PostComment = (props) => {
 							Post
 						</Button>
 						{isLoading && <LoadingIndicator />}
-						<Button dark to={`/forum/quotes/${quoteId}`}>
+						<Button
+							dark
+							to={`/gaialivsstil-reactApp/forum/quotes/${quoteId}`}
+						>
 							gå tilbake
 						</Button>
 					</form>

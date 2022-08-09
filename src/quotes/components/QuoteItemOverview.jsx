@@ -33,7 +33,7 @@ const QuoteItemOverview = (props) => {
 		setShowConfirmModal(false);
 		try {
 			await sendRequest(
-				`${process.env.REACT_APP_BACKEND_URL}/api/v1/forum/quotes/${props.id}`,
+				`${process.env.REACT_APP_BACKEND_URL}/v1/forum/quotes/${props.id}`,
 				'DELETE',
 				null,
 				{
@@ -101,7 +101,7 @@ const QuoteItemOverview = (props) => {
 					{isLoading && <LoadingIndicator asOverlay />}
 					<div className='quote-item__image'>
 						<img
-							src={`${process.env.REACT_APP_ASSET_URL}/${props.image}`}
+							src={`${process.env.REACT_APP_ASSET_URL}/images/${props.image}`}
 							alt={props.title}
 						/>
 					</div>
