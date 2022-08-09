@@ -5,7 +5,7 @@ const SingleQuoteCommentDetails = (props) => {
 		<Fragment>
 			<div className='user-img-comment'>
 				<img
-					src={`${process.env.REACT_APP_ASSET_URL}/${props.image}`}
+					src={`${process.env.REACT_APP_ASSET_URL}/images/${props.image}`}
 					alt=''
 				/>
 				<div className='c-card'>

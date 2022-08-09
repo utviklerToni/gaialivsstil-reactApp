@@ -26,7 +26,7 @@ const UserProfile = (props) => {
 				<div className='m2-txt quote-item__contents profile-card'>
 					<div className='quote-item__image'>
 						<Avatar
-							image={`${process.env.REACT_APP_ASSET_URL}/${props.item.image}`}
+							image={`${process.env.REACT_APP_ASSET_URL}/images/${props.item.image}`}
 							alt={props.item.name}
 						/>
 					</div>

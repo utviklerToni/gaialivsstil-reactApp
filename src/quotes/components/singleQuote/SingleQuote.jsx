@@ -25,7 +25,7 @@ const SingleQuote = (props) => {
 					<div className='quote-image'>
 						<div className=''>
 							<img
-								src={`${process.env.REACT_APP_ASSET_URL}/${props.item.image}`}
+								src={`${process.env.REACT_APP_ASSET_URL}/images/${props.item.image}`}
 								alt={props.item.title}
 								className='author-card desc-img-shadow'
 							/>
