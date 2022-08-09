@@ -71,9 +71,6 @@ const QuoteItemOverview = (props) => {
 		);
 	}
 
-	console.log(`URL: ${process.env.REACT_APP_ASSET_URL}`);
-	console.log(`file name: ${props.image}`);
-
 	return (
 		// due to portal it wont be rendered above the list below but on top of the side drawer portal in index.html
 

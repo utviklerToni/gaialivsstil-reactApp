@@ -12,7 +12,7 @@ const AuthorItem = (props) => {
 				{/* <Card> */}
 				<Link to={`/forum/quotes`}>
 					<Avatar
-						image={`${process.env.REACT_APP_ASSET_URL}/${props.image}`}
+						image={`${process.env.REACT_APP_ASSET_URL}/images/${props.image}`}
 						alt={props.name}
 					/>
 					<div style={{ padding: '18px' }} className='m2-txt'>
