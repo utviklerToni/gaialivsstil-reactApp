@@ -14,8 +14,6 @@ const AuthorQuotes = () => {
 	const { isLoading, errorState, sendRequest, clearError } = useHttpClient();
 	const [loadedQuotes, setLoadedQuotes] = useState();
 
-	// const authorId = useParams().authorId;
-
 	useEffect(() => {
 		const fetchQuotes = async () => {
 			try {
@@ -28,7 +26,6 @@ const AuthorQuotes = () => {
 					}
 				);
 
-				// console.log('author screen log: ', responseData.doc);
 				setLoadedQuotes(responseData.doc, responseData.token);
 			} catch (err) {}
 		};

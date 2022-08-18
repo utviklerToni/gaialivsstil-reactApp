@@ -44,8 +44,6 @@ const PostComment = (props) => {
 				}
 			);
 
-			// console.log(responseData);
-
 			navigate(`/gaialivsstil-reactApp/forum/quotes/${quoteId}`, {
 				replace: true,
 			});

@@ -1,11 +1,8 @@
 import React, { Fragment, useContext, useState } from 'react';
-// import axios from 'axios';
-// import { useNavigate } from 'react-router-dom';
 
 import ErrorModal from '../../shared/components/UIElements/Modal/ErrorModal';
 import Button from '../../shared/components/FormElements/Button';
 import Input from '../../shared/components/FormElements/Input';
-// import Card from '../../shared/components/UIElements/Card';
 import { AuthContext } from '../../shared/context/auth-context';
 import { useForm } from '../../shared/hooks/formHook';
 import {
@@ -55,7 +52,6 @@ const Auth = () => {
 					}
 				);
 
-				// console.log(responseData.data.user.role);
 				auth.login(
 					responseData.data.user._id,
 					responseData.data.user.role,
@@ -81,7 +77,6 @@ const Auth = () => {
 						'Content-Type': 'application/json',
 					}
 				);
-				// console.log(responseData);
 				auth.login(
 					responseData.data.user._id,
 					responseData.data.user.role,
@@ -162,8 +157,6 @@ const Auth = () => {
 								errorText='Vennligst skriv inn en gyldig e-postadresse.'
 								onInput={inputHandler}
 							/>
-
-							{/* {!signIn && <ImageUpload id='image' onInput={inputHandler} />} */}
 
 							<Input
 								element='input'

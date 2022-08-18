@@ -3,12 +3,8 @@ import React, { Fragment } from 'react';
 import Button from '../../../shared/components/FormElements/Button';
 
 import './SingleQuote.css';
-// import IconHeart from '../../../assets/svgs/IconHeart';
-// import IconTrash from '../../../assets/svgs/IconTrash';
 import { Link } from 'react-router-dom';
-// import Modal from '../../../shared/components/UIElements/Modal/Modal';
 import SingleQuoteCommentDetails from './SingleQuoteCommentDetails';
-// import { useNavigate } from 'react-router-dom';
 
 const SingleQuote = (props) => {
 	const currentQuoteId = props.item.id;
@@ -29,10 +25,7 @@ const SingleQuote = (props) => {
 								alt={props.item.title}
 								className='author-card desc-img-shadow'
 							/>
-							<div className='temp_flex m2-txt'>
-								{/* <IconHeart onClick={submitLikeHandler} />
-                        <p>{lovedArray.length} people Loved it.</p> */}
-							</div>
+							<div className='temp_flex m2-txt'></div>
 						</div>
 						<div className='quote-flex f-dir m2-txt'>
 							<div className='quote-description quote-description__card m-lineH'>

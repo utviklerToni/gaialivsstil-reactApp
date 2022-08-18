@@ -1,14 +1,10 @@
 import React, { Fragment, useContext } from 'react';
 
 import './QuoteList.css';
-// import Card from '../../shared/components/UIElements/Card';
-// import QuoteItem from './QuoteItem';
 import QuoteItemOverview from './QuoteItemOverview';
 import { AuthContext } from '../../shared/context/auth-context';
-// import { Link } from "react-router-dom";
 
 const QuoteList = (props) => {
-	// console.log(props);
 	const auth = useContext(AuthContext);
 
 	if (props.items.length === 0) {

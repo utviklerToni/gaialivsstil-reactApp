@@ -28,7 +28,6 @@ const QuoteScreen = () => {
 					}
 				);
 
-				// console.log('log of quote screen', responseData.doc);
 				setLoadedQuote(responseData.doc, responseData.token);
 			} catch (err) {}
 		};

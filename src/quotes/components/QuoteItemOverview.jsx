@@ -9,11 +9,7 @@ import { AuthContext } from '../../shared/context/auth-context';
 import { useHttpClient } from '../../shared/hooks/http-hook';
 import ErrorModal from '../../shared/components/UIElements/Modal/ErrorModal';
 import LoadingIndicator from '../../shared/components/UIElements/LoadingIndicator/LoadingIndicator';
-// import IconHeart from '../../assets/svgs/IconHeart';
 import IconChat from '../../assets/svgs/IconChat';
-// import { useNavigate } from 'react-router-dom';
-// import Backdrop from '../../shared/components/UIElements/Backdrop';
-// import { Link } from 'react-router-dom';
 const QuoteItemOverview = (props) => {
 	const auth = useContext(AuthContext);
 
@@ -124,16 +120,6 @@ const QuoteItemOverview = (props) => {
 								style={{ display: 'flex', gap: '18px' }}
 								className='m-txt'
 							>
-								{/* <div
-                           style={{
-                              display: 'flex',
-                              gap: '3px',
-                              alignItems: 'center',
-                           }}
-                        >
-                           <IconHeart />
-                           <p>{props.loved.length} Loved</p>
-                        </div> */}
 								<div className='chat-flex'>
 									<IconChat />
 									<p>
