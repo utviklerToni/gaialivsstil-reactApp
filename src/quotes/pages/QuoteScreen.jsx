@@ -2,7 +2,6 @@ import React, { Fragment, useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 import './QuoteScreen.css';
-// import Button from '../../shared/components/FormElements/Button';
 import { useHttpClient } from '../../shared/hooks/http-hook';
 import ErrorModal from '../../shared/components/UIElements/Modal/ErrorModal';
 import LoadingIndicator from '../../shared/components/UIElements/LoadingIndicator/LoadingIndicator';
