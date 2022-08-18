@@ -96,10 +96,7 @@ const QuoteItemOverview = (props) => {
 				<div className='quote-item__contents quote-card'>
 					{isLoading && <LoadingIndicator asOverlay />}
 					<div className='quote-item__image'>
-						<img
-							src={`${process.env.REACT_APP_ASSET_URL}/images/${props.image}`}
-							alt={props.title}
-						/>
+						<img src={`${props.image}`} alt={props.title} />
 					</div>
 					<div className='quote-flex'>
 						<div className='quote-item__info quote-card-text-color'>

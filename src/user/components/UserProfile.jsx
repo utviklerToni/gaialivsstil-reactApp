@@ -25,10 +25,7 @@ const UserProfile = (props) => {
 				</div>
 				<div className='m2-txt quote-item__contents profile-card'>
 					<div className='quote-item__image'>
-						<Avatar
-							image={`${process.env.REACT_APP_ASSET_URL}/images/${props.item.image}`}
-							alt={props.item.name}
-						/>
+						<Avatar image={`${props.item.image}`} alt={props.item.name} />
 					</div>
 					<div className='profile-card__flex profile-card-edit'>
 						<div className='profile-text m-txt'>
