@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/gaialivsstil-reactApp/static/css/main.d5c030a0.css",
-    "main.js": "/gaialivsstil-reactApp/static/js/main.cc279ebe.js",
+    "main.css": "/gaialivsstil-reactApp/static/css/main.55d801fd.css",
+    "main.js": "/gaialivsstil-reactApp/static/js/main.a908795c.js",
     "static/media/om-oss.webp": "/gaialivsstil-reactApp/static/media/om-oss.4366ff05399fe535696e.webp",
     "static/media/pexels-stein-egil-liland-1933239.jpg": "/gaialivsstil-reactApp/static/media/pexels-stein-egil-liland-1933239.5360d362a81633f33d57.jpg",
     "static/media/stein.webp": "/gaialivsstil-reactApp/static/media/stein.ae4afc08732ece5a7ad2.webp",
     "static/media/service-3.webp": "/gaialivsstil-reactApp/static/media/service-3.73504e6383d3b67624e4.webp",
     "static/media/pexels-pixabay-266194.jpg": "/gaialivsstil-reactApp/static/media/pexels-pixabay-266194.b716249fabaa7b6e0f1f.jpg",
+    "static/media/Sevillana-Regular.ttf": "/gaialivsstil-reactApp/static/media/Sevillana-Regular.32847eb69e8f7abd6778.ttf",
     "static/media/Rubik-Regular.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Regular.974ab100afa4538622da.ttf",
     "static/media/Rubik-Medium.ttf": "/gaialivsstil-reactApp/static/media/Rubik-Medium.9eca2a21c16a15364ea0.ttf",
     "static/media/Rubik-SemiBold.ttf": "/gaialivsstil-reactApp/static/media/Rubik-SemiBold.4e99ecca3660ff081d90.ttf",
@@ -32,11 +33,11 @@
     "static/media/flower-of-life.43296c5e.webp": "/gaialivsstil-reactApp/static/media/flower-of-life.43296c5e.93b5bc5d8af9b5e810e0.webp",
     "static/media/buddha-meditating.e8edacd1.webp": "/gaialivsstil-reactApp/static/media/buddha-meditating.e8edacd1.11521de5bb70aaadf58a.webp",
     "index.html": "/gaialivsstil-reactApp/index.html",
-    "main.d5c030a0.css.map": "/gaialivsstil-reactApp/static/css/main.d5c030a0.css.map",
-    "main.cc279ebe.js.map": "/gaialivsstil-reactApp/static/js/main.cc279ebe.js.map"
+    "main.55d801fd.css.map": "/gaialivsstil-reactApp/static/css/main.55d801fd.css.map",
+    "main.a908795c.js.map": "/gaialivsstil-reactApp/static/js/main.a908795c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5c030a0.css",
-    "static/js/main.cc279ebe.js"
+    "static/css/main.55d801fd.css",
+    "static/js/main.a908795c.js"
   ]
 }
