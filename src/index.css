@@ -62,7 +62,7 @@
 }
 
 @font-face {
-   font-family: 'Rubik-Regular';
+   font-family: 'Rubik';
    src: local('Rubik-Regular'),
       url('./assets/fonts/Rubik/static/Rubik-Regular.ttf');
 }
@@ -77,6 +77,11 @@
    font-family: 'Rubik-SemiBoldItalic';
    src: local('Rubik-SemiBoldItalic'),
       url('./assets/fonts/Rubik/static/Rubik-SemiBoldItalic.ttf');
+}
+@font-face {
+   font-family: 'Sevillana';
+   src: local('Sevillana'),
+      url('./assets/fonts/Sevillana/Sevillana-Regular.ttf');
 }
 
 body {

@@ -100,10 +100,13 @@ const EditProfile = (props) => {
 
    if (isLoading) {
       return (
-         <div className='center'>
-            {/* <LoadingIndicator asOverlay /> */}
-            <LoadingDotIndicator />
-         </div>
+         <Fragment>
+            <div className='center'>
+               {/* <LoadingIndicator asOverlay /> */}
+               <LoadingDotIndicator />
+            </div>
+            <div className='gaialivsstil-bg section-feedback-bg l-space-top m-top'></div>
+         </Fragment>
       );
    }
 
@@ -125,10 +128,10 @@ const EditProfile = (props) => {
    }
 
    return (
-      <Fragment>
+      <div className='gaialivsstil-bg section-feedback-bg l-space-top m-top'>
          <ErrorModal error={errorState} onClear={clearError} />
          {!isLoading && loadedUserDetails && (
-            <div className='gaialivsstil-bg section-feedback-bg l-space-top m-top'>
+            <Fragment>
                <div className='abt-width el-txt centered'>
                   <h1>Rediger profilen din.</h1>
                </div>
@@ -182,9 +185,9 @@ const EditProfile = (props) => {
                      </div>
                   </form>
                </div>
-            </div>
+            </Fragment>
          )}
-      </Fragment>
+      </div>
    );
 };
 

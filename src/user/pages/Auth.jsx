@@ -122,7 +122,7 @@ const Auth = () => {
 
          {isLoading && <LoadingDotIndicator />}
 
-         <div className='auth-bg min-h m2-txt el-p-top'>
+         <div className='auth-bg min-h m2-txt el-p-top m-btm'>
             <div className='auth-form'>
                <div className='left-right-pad3'>
                   {signIn && (

@@ -1,10 +1,11 @@
 .welcome-forum-text {
+   font-family: 'Rubik-ExtraBold';
    text-transform: uppercase;
    text-shadow: 0 3px 9px black;
    color: rgba(204, 253, 255, 0.863);
 }
 
-.quote-image {
+.quote-image-container {
    display: flex;
    gap: 9rem;
    flex-direction: column;
@@ -12,8 +13,12 @@
    margin: auto;
 }
 
-.quote-image img {
+.quote-image-container img {
    max-width: 100%;
+}
+
+.quote-image img {
+   border-radius: 6px;
 }
 
 .quote-description {

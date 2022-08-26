@@ -44,7 +44,9 @@ const QuoteScreen = () => {
                <LoadingDotIndicator />
             </div>
          )}
-         {!isLoading && loadedQuote && <SingleQuote item={loadedQuote} />}
+         <div className='gaialivsstil-bg section-feedback-bg'>
+            {!isLoading && loadedQuote && <SingleQuote item={loadedQuote} />}
+         </div>
       </Fragment>
    );
 };

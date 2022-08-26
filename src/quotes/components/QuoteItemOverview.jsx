@@ -88,7 +88,7 @@ const QuoteItemOverview = (props) => {
                </Fragment>
             }
          >
-            <p style={{ color: '#001122' }}>
+            <p className='warning-text'>
                This cannot be recovered and you will lose all the discussion on
                this Quote.
             </p>

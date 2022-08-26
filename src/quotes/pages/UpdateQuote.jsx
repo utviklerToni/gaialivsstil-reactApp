@@ -131,7 +131,7 @@ const UpdateQuote = () => {
          <ErrorModal error={errorState} onClear={clearError} />
          {!isLoading && loadedQuote && (
             <div className='section-feedback-bg m-top m2-txt'>
-               <div style={{ minHeight: '12vh' }}></div>
+               <div className='up-q-top-height'></div>
                <form className='quote-form' onSubmit={updateQuoteSubmitHandler}>
                   <Button green to={`/gaialivsstil-reactApp/forum/quotes`}>
                      gå tilbake

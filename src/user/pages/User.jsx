@@ -39,7 +39,9 @@ const User = () => {
                <LoadingDotIndicator />
             </div>
          )}
-         {!isLoading && loadedUser && <UserProfile item={loadedUser} />}
+         <div className='gaialivsstil-bg min-h l-space-top m-top m-btm'>
+            {!isLoading && loadedUser && <UserProfile item={loadedUser} />}
+         </div>
       </Fragment>
    );
 };
