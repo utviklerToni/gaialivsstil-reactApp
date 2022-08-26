@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gaialivsstil-reactApp/static/css/main.55d801fd.css",
+    "main.css": "/gaialivsstil-reactApp/static/css/main.bc3c4b26.css",
     "main.js": "/gaialivsstil-reactApp/static/js/main.a908795c.js",
     "static/media/om-oss.webp": "/gaialivsstil-reactApp/static/media/om-oss.4366ff05399fe535696e.webp",
     "static/media/pexels-stein-egil-liland-1933239.jpg": "/gaialivsstil-reactApp/static/media/pexels-stein-egil-liland-1933239.5360d362a81633f33d57.jpg",
@@ -33,11 +33,11 @@
     "static/media/flower-of-life.43296c5e.webp": "/gaialivsstil-reactApp/static/media/flower-of-life.43296c5e.93b5bc5d8af9b5e810e0.webp",
     "static/media/buddha-meditating.e8edacd1.webp": "/gaialivsstil-reactApp/static/media/buddha-meditating.e8edacd1.11521de5bb70aaadf58a.webp",
     "index.html": "/gaialivsstil-reactApp/index.html",
-    "main.55d801fd.css.map": "/gaialivsstil-reactApp/static/css/main.55d801fd.css.map",
+    "main.bc3c4b26.css.map": "/gaialivsstil-reactApp/static/css/main.bc3c4b26.css.map",
     "main.a908795c.js.map": "/gaialivsstil-reactApp/static/js/main.a908795c.js.map"
   },
   "entrypoints": [
-    "static/css/main.55d801fd.css",
+    "static/css/main.bc3c4b26.css",
     "static/js/main.a908795c.js"
   ]
 }
